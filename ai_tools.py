@@ -1,5 +1,6 @@
 #Archivo inicial con el total de herramientas que le pasamos.
 #Ciertas tools han quedado desfadas con LangChain por lo que se ha realizado un nuevo archivo llamado IA_TOOLS.PY para suplir estas carencias.
+#Se mantiene este archivo en el repositorio de GitHub para facilitar un seguimiento al proyecto.
 #Destacar que el archivo MAIN.PY llama al archivo IA_TOOLS.PY 
 
 
