@@ -1,3 +1,8 @@
+#Archivo inicial con el total de herramientas que le pasamos.
+#Ciertas tools han quedado desfadas con LangChain por lo que se ha realizado un nuevo archivo llamado IA_TOOLS.PY para suplir estas carencias.
+#Destacar que el archivo MAIN.PY llama al archivo IA_TOOLS.PY 
+
+
 from pydantic import BaseModel, Field
 from spotify import start_playing_song_by_name, start_playing_song_by_lyrics, start_music, pause_music, start_playlist_by_name, next_track, previous_track
 from langchain.tools import tool
