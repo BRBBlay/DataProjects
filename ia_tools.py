@@ -1,3 +1,5 @@
+#Archivo suplente a AI_TOOLS.PY, en éste se han reducido las tools a las que sí funcionan.
+
 from langchain_core.pydantic_v1 import BaseModel, Field
 from spotify import start_playing_song_by_name, start_playing_song_by_lyrics, start_music, pause_music, start_playlist_by_name, next_track, previous_track
 from langchain.tools import tool
